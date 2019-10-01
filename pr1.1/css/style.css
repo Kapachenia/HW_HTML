@@ -1,0 +1,313 @@
+@font-face {
+font-family: "Arial - Bold MT"; 
+src: url("../fonts/Arial-BoldMT.ttf"); 
+} 
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.conteiner {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.head {
+	/*background: red;*/
+	width: 100%;
+	float: left;
+	/*min-height: 61px;*/
+	/*padding: 15px 0px;*/
+	background: url("../img/bg_header.png");
+}
+
+.header {
+	float: left;
+	width: 100%;
+}
+
+.logo {
+	/*background: green;*/
+	/*width: 216px;*/
+	float: left;
+}
+
+/*.logo a {*/
+	/*text-decoration: none;*/
+/*}*/
+
+/*.logo_name {
+	margin: 0px;
+	padding: 10px 10px 0px 1px;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: -20;
+	color: #1d2152;
+}
+
+.logo_promo {
+	margin: 0px;
+	padding: 0px 10px 10px 1px;
+	font-size: 14px;
+	color: #3d5ba4;
+}*/
+
+.main_menu {
+	float: right;
+	/*background-color: yellow;*/
+	width: 640px;
+	margin-top: 5px;
+}
+
+.main_menu ul {
+	list-style: none;
+	float: right;
+	/*margin-right: 10px;*/
+	margin-top: 30px;
+}
+
+.main_menu ul li {
+	float: left;
+}
+
+.main_menu a {
+	text-decoration: none;
+	padding: 1px 4px 1px 4px;
+	margin: 10px;
+	margin-right: 17px;
+	font-size: 13px;
+	color: #2f57a1;
+	font-family: "Arial - Bold MT";
+}
+
+/*.main_menu a :last-child {
+	margin-right: 4px;
+}*/
+
+.main_menu a:hover {
+	background: url("../img/bg_button.png");
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 2px #91969f; 
+}
+
+.slider {
+	background: url("../img/bg_slider.png");
+	width: 100%;
+	float: left;
+	min-height: 500px;
+	padding: 0px;
+}
+
+.slider_nav ul {
+	list-style: none;
+	padding:0px;
+}
+
+.slider_nav ul li {
+	float: left;
+	padding:10px;
+	margin:0px 5px;
+	background: url("../img/sprite_buttons.png") -32px 0px no-repeat;
+}
+
+.slider_nav ul li:hover {
+	cursor: pointer;
+	background-position: 0px 0px;
+}
+
+.banner {
+	float: left;
+	background: #dadfeb;
+	width: 100%;
+	/*width: 960px;*/
+	/*margin: 0px auto;*/
+	/*min-width: 125px;*/
+	/*min-height: 125px;*/
+}
+
+.content_banner {
+	color: #132445;
+	font-size: 36px;
+	float: left;
+}
+
+.content_banner p {
+	margin: 20px;
+}
+
+.bt_banner {
+	/* Style for "Let’s star" */
+width: 220px;
+height: 54px;
+background-image: linear-gradient(to top, #6b86bb 0%, #6f76b7 0%, #afc6f8 100%);
+/*text-shadow: 1px 2px 2px rgba(47, 85, 159, 0.75);*/
+/*color: #ffffff;*/
+font-family: "Arial Narrow";
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+text-transform: uppercase;
+/* Text style for "your Websi" */
+font-size: 35px;
+}
+
+.column {
+	width: 215px;
+	height: 314px;
+	background: #ffffff;
+	float: left;
+	margin-right: 30px;
+}
+
+.column h3 {
+	font-size: 20px;
+	margin: 10px 21px 10px 21px;
+}
+
+.column p {
+	font-size: 13px;
+	margin: 10px 21px 10px 21px;
+}
+
+.column img {
+	margin: 18px;
+}
+
+.column a {
+	background: url("../img/bg_button_title.png");
+	color: #2945c0;
+	padding: 4px 6px 4px 6px;
+	border-radius: 10px;
+	font-size: 13px;
+	box-shadow: 1px 1px 1px 1px #dadce1;
+	text-decoration: none;
+	margin: 10px 21px 10px 21px;
+}
+
+.content {
+	float: left;
+	width: 100%;
+	background: #dadfeb;
+}
+
+/*.content:last-child {
+	background: red;
+}
+*/
+
+.column2 {
+	margin-right: 0px;
+}
+
+.title_about {
+	float: left;
+	background: #dadfeb;
+	width: 100%;
+}
+
+.wraper_title {
+	float: left;
+	width: 500px;
+	min-height: 350px;
+	/*background: red;*/
+}
+
+.title {
+	/*background: green;*/
+	float: left;
+	min-height: 120px;
+	width: 215px;
+	padding-left: 1px;
+	margin: 25px 30px 0px 0px;
+}
+
+.title img {
+	float: left;
+	margin-right: 6px;
+}
+
+.title h3 {
+	float: left;
+	margin: 10px 0px 10px 0px;
+}
+
+.title p {
+	float: left;
+}
+
+.about {
+	float: left;
+	width: 460px;
+	/*background: yellow;*/
+}
+
+.about a {
+	font-size: 13px;
+	color: #2945c0;
+}
+
+.footer {
+	background: #565f81;
+	float: left;
+	width: 100%
+}
+
+.column_left {
+	/*background: red;*/
+	float: left;
+	margin-right: 200px;
+}
+
+.column_right {
+	/*background: green;*/
+	float: left;
+}
+
+.footer_menu ul {
+	list-style: none;
+	float: left;
+	color: #dadfeb;
+	/*background: yellow;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer_menu ul li {
+	float: left;
+	padding: 7px;
+	padding-left: 0px;
+}
+
+.footer p {
+	color: #9fa8bd;
+	/*width: 375px;*/
+	line-height: 30px;
+	margin: auto;
+}
+
+.footer a {
+	color: #9fa8bd;
+	text-decoration: none;
+}
+
+.footer_links a:last-child {
+	text-decoration: underline;
+	color: #dadfeb;
+}
+
+.footer_connect {
+	float: left;
+	/*background: green;*/
+	/*width: 120px;*/
+}
+
+.footer_butons {
+	/*background: red;*/
+	float: left;
+}
+
+.footer_butons li {
+	float: left;
+	list-style: none;
+}
